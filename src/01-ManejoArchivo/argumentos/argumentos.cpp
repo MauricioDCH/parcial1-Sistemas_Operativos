@@ -17,9 +17,4 @@ void MostrarArgumentos::mostrarComandos(char* argv[]){
     write(STDOUT_FILENO, "  [OPCIÓN-2]\n", 14);
     write(STDOUT_FILENO, "      -e <archivo>, --encrypt <archivo>:  ------> Encriptar el archivo.\n", 73);
     write(STDOUT_FILENO, "      -d <archivo>, --decrypt <archivo>:  ------> Desencriptar el archivo\n", 75);
-    // ESTA SECCIÓN ES POR SI ME DA TIEMPO DE HACER LA COMPRESIÓN.
-    /*
-    write(STDOUT_FILENO, "      -c <archivo>, --compress <archivo>:  -----> Comprimir el archivo\n", 71);
-    write(STDOUT_FILENO, "      -x <archivo>, --decompress <archivo>:  ---> Descomprimir el archivo\n", 75);
-    */
 }

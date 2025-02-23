@@ -32,7 +32,6 @@ int AbrirArchivo::abrirArchivoParaEscritura(std::string& nombre_archivo_salida){
     // `O_CREAT` → Crea el archivo si no existe
     // `O_TRUNC` → Si el archivo existe, lo sobreescribe
     // `0644` → Permisos de lectura/escritura para el dueño, lectura para otros
-    //int fileDescriptor = open(nombre_archivo_salida.c_str(), O_WRONLY | O_CREAT | O_TRUNC, 0644);
     int fileDescriptor = open(nombre_archivo_salida.c_str(), O_WRONLY | O_CREAT, 0644);
     if(fileDescriptor == -1){
         write(STDERR_FILENO, "Error al abrir el archivo\n", 26);

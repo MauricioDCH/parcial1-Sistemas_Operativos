@@ -19,12 +19,6 @@ struct Data_and_Bits{
 
 class EscribirArchivo{
     public:
-        /*
-        Data_and_Bits convertirABits(std::vector<uint8_t> datos_desde_archivo);
-        void mostrarDatosEnBits(Data_and_Bits datos_y_bits);
-        std::vector<std::vector<int>> matrizBits(std::vector<uint8_t> datos_desde_archivo);
-        void mostrarMatriz(std::vector<std::vector<int>> matriz);
-        */
         int escribirArchivo(int fileDescriptor, std::vector<uint8_t> datos, std::string& nombre_archivo_entrada);
 };
 

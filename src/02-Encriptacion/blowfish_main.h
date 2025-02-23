@@ -33,7 +33,6 @@ class BlowFish_Algoritmo{
         BlowFish_Algoritmo();
         DWORD Funcion_f(DWORD sub_bloque_lado_izquierdo);
         void Inicializacion_parametros_con_clave(const std::string &clave);
-        //std::string Convertir_a_string(DWORD string_en_hexa);
         VectFD_Original_Encriptado EncriptarArchivo(const VectFD& datosEntrada, std::string clave, BlowFish_Algoritmo& blowfish);
         VectFD_Encriptado_Desencriptado DesencriptarArchivo(const VectFD& datosEntrada, BlowFish_Algoritmo& blowfish);
 };

@@ -17,8 +17,6 @@
 #include <cstring>
 #include "../04-Utils/vectorFD.h"
 
-
-
 #define NUMERO_DE_EJECUCIONES 16
 #define NUMERO_DE_PERMUTACIONES 18
 #define NUMERO_DE_CAJAS 4

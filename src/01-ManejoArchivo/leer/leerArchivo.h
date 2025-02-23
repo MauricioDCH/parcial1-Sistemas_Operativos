@@ -10,10 +10,6 @@
 #include <string>
 #include "../../04-Utils/vectorFD.h"
 
-
-
-
-
 class LeerArchivo{
     public:
         VectFD leerArchivo(int fileDescriptor, std::string& nombre_archivo_entrada);
